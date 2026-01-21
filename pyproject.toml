@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "counsel"
+version = "0.3.4"
+description = "An AI defense attorney for high-profile public disputes"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Asternomic" }]
+requires-python = ">=3.11"
+keywords = [
+    "ai-agent",
+    "defense",
+    "legal",
+    "language-model",
+    "research",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "httpx>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "ruff>=0.5",
+]
+
+[project.urls]
+Homepage = "https://github.com/byte721/counsel"
+Repository = "https://github.com/byte721/counsel"
+
+[project.scripts]
+counsel = "counsel.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["counsel*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+ignore = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
