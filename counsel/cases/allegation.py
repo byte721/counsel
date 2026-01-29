@@ -35,3 +35,4 @@ class Allegation:
 
     def is_substantive(self) -> bool:
         return self.severity in (AllegationSeverity.SERIOUS, AllegationSeverity.CRITICAL)
+
