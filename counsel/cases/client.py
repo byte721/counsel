@@ -27,3 +27,4 @@ class Client:
 
     def serious_count(self) -> int:
         return sum(1 for a in self.allegations if a.is_substantive())
+
