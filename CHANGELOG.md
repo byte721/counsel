@@ -39,3 +39,4 @@
 
 ## [0.1.0] - 2026-01-22
 - initial: DefenseAttorney + Client + Allegation + EvidenceIndex
+
