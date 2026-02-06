@@ -112,3 +112,4 @@ class ChatClient:
                 await asyncio.sleep(2 ** attempt)
         raise RuntimeError(f"chat failed after {self.max_retries} retries") from last_err
 
+
