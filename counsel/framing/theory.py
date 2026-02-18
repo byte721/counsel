@@ -35,3 +35,4 @@ class DefenseTheory:
 
     def render_one_line(self) -> str:
         return f"[{self.archetype.value}] {self.headline}"
+
