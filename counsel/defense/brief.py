@@ -57,3 +57,4 @@ class DefenseBrief:
         lines.append(self.closing)
         lines.append("")
         return "\n".join(lines)
+
