@@ -140,3 +140,4 @@ class DefenseAttorney:
             responses=responses,
             closing=data.get("closing", ""),
         )
+
