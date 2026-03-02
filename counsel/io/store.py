@@ -60,3 +60,4 @@ class BriefStore:
             "closing": brief.closing,
         }
         return json.dumps(payload, indent=2)
+
