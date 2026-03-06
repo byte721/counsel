@@ -95,3 +95,4 @@ async def test_attorney_invalid_json_raises():
     client = Client(handle="@x")
     with pytest.raises(RuntimeError, match="invalid json"):
         await attorney.represent(client)
+
