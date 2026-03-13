@@ -1,0 +1,61 @@
+{
+  "client": {
+    "handle": "@elonmusk",
+    "legal_name": "Elon Musk",
+    "role": "Plaintiff in Musk v. Altman; co-founder of OpenAI",
+    "public_corpus_id": "musk_public",
+    "notes": "Defending Musk's position in Musk v. Altman."
+  },
+  "allegations": [
+    {
+      "id": "alleg_001",
+      "accuser": "@sama",
+      "summary": "Musk's lawsuit is a 'long con' to disable a competitor (xAI) under the cover of mission protection.",
+      "severity": "serious"
+    },
+    {
+      "id": "alleg_002",
+      "accuser": "@sama",
+      "summary": "Musk departed OpenAI after losing a control vote, not in defense of any founding mission.",
+      "severity": "material"
+    },
+    {
+      "id": "alleg_003",
+      "accuser": "@sama",
+      "summary": "Musk pledged $1B in funding but delivered approximately $44M.",
+      "severity": "material"
+    },
+    {
+      "id": "alleg_004",
+      "accuser": "@OpenAI",
+      "summary": "Musk supported the for-profit conversion in 2017 internal discussions and only opposed it after losing control.",
+      "severity": "serious"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_001",
+      "role": "foundational",
+      "summary": "The original 501(c)(3) charter explicitly stated openness as a foundational mission.",
+      "weight": 4.0
+    },
+    {
+      "id": "ev_002",
+      "role": "exculpatory",
+      "summary": "Public statements by the client from 2018 onward consistently warn of the risks of closed AI development by for-profit entities.",
+      "weight": 3.0
+    },
+    {
+      "id": "ev_003",
+      "role": "impeaching",
+      "summary": "Internal emails from defendant indicating intent to convert to for-profit prior to client's departure exist in discovery.",
+      "weight": 3.5
+    },
+    {
+      "id": "ev_004",
+      "role": "mitigating",
+      "summary": "Client's contributions enabled the foundational research that made the present commercial value possible.",
+      "weight": 2.0
+    }
+  ]
+}
