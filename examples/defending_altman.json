@@ -1,0 +1,61 @@
+{
+  "client": {
+    "handle": "@sama",
+    "legal_name": "Sam Altman",
+    "role": "Defendant in Musk v. Altman; CEO of OpenAI",
+    "public_corpus_id": "altman_public",
+    "notes": "Defending Altman's position in Musk v. Altman."
+  },
+  "allegations": [
+    {
+      "id": "alleg_001",
+      "accuser": "@elonmusk",
+      "summary": "Altman engaged in a 'long con' to convert a 501(c)(3) into a for-profit enterprise in violation of the founding agreement.",
+      "severity": "critical"
+    },
+    {
+      "id": "alleg_002",
+      "accuser": "@elonmusk",
+      "summary": "Altman induced contributions of capital and reputation under false pretenses regarding the nonprofit mission.",
+      "severity": "serious"
+    },
+    {
+      "id": "alleg_003",
+      "accuser": "@elonmusk",
+      "summary": "Altman should disgorge approximately $134B in gains derived from the for-profit conversion.",
+      "severity": "material"
+    },
+    {
+      "id": "alleg_004",
+      "accuser": "@elonmusk",
+      "summary": "The press release on the conversion contradicted internal filings.",
+      "severity": "material"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev_001",
+      "role": "foundational",
+      "summary": "Internal communications from 2017 show plaintiff was a participant in early for-profit conversion discussions.",
+      "weight": 4.0
+    },
+    {
+      "id": "ev_002",
+      "role": "exculpatory",
+      "summary": "The conversion was approved by the board with full disclosure of structure and economic terms.",
+      "weight": 3.5
+    },
+    {
+      "id": "ev_003",
+      "role": "impeaching",
+      "summary": "Plaintiff founded a competing for-profit AI company (xAI) shortly before filing this action.",
+      "weight": 3.0
+    },
+    {
+      "id": "ev_004",
+      "role": "mitigating",
+      "summary": "Compute requirements for frontier models exceeded what nonprofit funding could realistically provide.",
+      "weight": 2.5
+    }
+  ]
+}
