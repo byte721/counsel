@@ -59,3 +59,4 @@ def test_store_json_roundtrip():
         assert data["client_handle"] == "@elonmusk"
         assert data["theory"]["archetype"] == "justification"
         assert len(data["responses"]) == 1
+
