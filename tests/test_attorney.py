@@ -97,3 +97,4 @@ async def test_attorney_invalid_json_raises():
         await attorney.represent(client)
 
 
+
