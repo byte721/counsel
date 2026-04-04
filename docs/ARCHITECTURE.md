@@ -80,3 +80,4 @@ same plausible-sounding language. The defense should be sharper than that.
   briefs are research artifacts, not court filings.
 - **A prosecutor agent.** The opposite of Counsel. Plausible future work
   but kept out of this repo for clarity.
+
