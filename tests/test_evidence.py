@@ -24,3 +24,4 @@ def test_index_total_weight():
     idx.add(DefenseEvidence(id="e1", role=EvidenceRole.EXCULPATORY, summary="a", weight=1.5))
     idx.add(DefenseEvidence(id="e2", role=EvidenceRole.MITIGATING, summary="b", weight=2.0))
     assert idx.total_weight() == 3.5
+
