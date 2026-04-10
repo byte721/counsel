@@ -39,3 +39,4 @@ def test_client_critical_check():
     c = Client(handle="@client")
     c.allegations.append(_alleg(AllegationSeverity.CRITICAL))
     assert c.has_critical_allegations
+
