@@ -37,3 +37,4 @@ class DefenseTheory:
         return f"[{self.archetype.value}] {self.headline}"
 
 
+
