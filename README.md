@@ -1,3 +1,5 @@
+
+
 # counsel
 
 > An AI defense attorney for high-profile public disputes. Pick a side. Counsel builds the defense.
@@ -32,6 +34,8 @@ Draft a defense brief from an example case:
 ```bash
 counsel represent --case examples/defending_musk.json --print
 ```
+
+Generated briefs are saved to the `briefs/` directory by default. Use `--out <path>` to specify a custom output location.
 
 Switch sides:
 
